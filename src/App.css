@@ -1,0 +1,11 @@
+
+.full {
+  padding-top: 48px;
+  background-color:white;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode {
+  background-color: #4a525b;
+  color: #ffffff;
+}

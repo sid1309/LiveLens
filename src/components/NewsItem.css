@@ -1,0 +1,12 @@
+.card{
+  box-shadow:3px 3px 3px 3px  aqua;
+  transition: background-color 0.3s, color 0.3s;
+}
+.body.bg-dark {
+  background-color: #4a525b;
+  color: #ffffff;
+  border: 1px solid #333;
+}
+.card.text-light {
+  color: #ffffff;
+}
