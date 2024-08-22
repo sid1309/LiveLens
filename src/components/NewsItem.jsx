@@ -28,17 +28,16 @@ const NewsItem = ({ title, description, src, url, author, publishedAt, onBookmar
       localStorage.setItem('bookmarks', JSON.stringify(updatedBookmarks));
       setIsBookmarked(true);
     }
-    if (onBookmarkChange) onBookmarkChange();  // Notify parent component
+    if (onBookmarkChange) onBookmarkChange();  
   };
 
   return (
-    
     <div className={`card ${darkMode ? 'bg-dark text-light' : ''} mb-3 d-inline-block my-3 mx-3 px-2 py-2 `} style={{ maxWidth: "345px" }}>
       <h5 className="card-title">{title.slice(0, 60)}</h5>
       <img src={src ? src : image} style={{ height: "200px", width: "325px", marginTop: "10px", borderRadius: "15px" }} className="card-img-top" alt="..." />
       <div className="card-body">
         <p className="card-text">{description ? description : title}</p>
-        <p style={{ margin: "0px 0px 0px 0px" }}>Source: {author}</p>
+
         <p style={{ margin: "0px 0px 0px 0px" }}>Date: {publishedAt.slice(0, 10)}</p>
         <div className="d-flex align-items-center justify-content-between" style={{ marginTop: "10px" }}>
           <a href={url} className="btn btn-primary">Read More</a>

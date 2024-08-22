@@ -29,17 +29,17 @@ const Navbar = ({ category, setCategory, darkMode, toggleDarkMode }) => {
             <li className="nav-item">
               <div
                 className="nav-link"
-                onClick={() => setCategory("top-headlines?country=in&category=general")}
-                style={{ color: category === 'top-headlines?country=in&category=general' ? '#FFDF00' : '' }}
+                onClick={() => setCategory("topic-news-by-section?topic=WORLD")}
+                style={{ color: category === 'topic-news-by-section?topic=WORLD' ? '#FFDF00' : '' }}
               >
-                General
+                World
               </div>
             </li>
             <li className="nav-item">
               <div
                 className="nav-link"
-                onClick={() => setCategory("top-headlines?country=in&category=technology")}
-                style={{ color: category === 'top-headlines?country=in&category=technology' ? '#FFDF00' : '' }}
+                onClick={() => setCategory("topic-news-by-section?topic=TECHNOLOGY")}
+                style={{ color: category === 'topic-news-by-section?topic=TECHNOLOGY' ? '#FFDF00' : '' }}
               >
                 Technology
               </div>
@@ -47,8 +47,8 @@ const Navbar = ({ category, setCategory, darkMode, toggleDarkMode }) => {
             <li className="nav-item">
               <div
                 className="nav-link"
-                onClick={() => setCategory("top-headlines?country=in&category=business")}
-                style={{ color: category === 'top-headlines?country=in&category=business' ? '#FFDF00' : '' }}
+                onClick={() => setCategory("topic-news-by-section?topic=BUSINESS")}
+                style={{ color: category === 'topic-news-by-section?topic=BUSINESS' ? '#FFDF00' : '' }}
               >
                 Business
               </div>
@@ -56,8 +56,8 @@ const Navbar = ({ category, setCategory, darkMode, toggleDarkMode }) => {
             <li className="nav-item">
               <div
                 className="nav-link"
-                onClick={() => setCategory("top-headlines?country=in&category=health")}
-                style={{ color: category === 'top-headlines?country=in&category=health' ? '#FFDF00' : '' }}
+                onClick={() => setCategory("topic-news-by-section?topic=HEALTH")}
+                style={{ color: category === 'topic-news-by-section?topic=HEALTH' ? '#FFDF00' : '' }}
               >
                 Health
               </div>
@@ -65,8 +65,8 @@ const Navbar = ({ category, setCategory, darkMode, toggleDarkMode }) => {
             <li className="nav-item">
               <div
                 className="nav-link"
-                onClick={() => setCategory("top-headlines?country=in&category=sports")}
-                style={{ color: category === 'top-headlines?country=in&category=sports' ? '#FFDF00' : '' }}
+                onClick={() => setCategory("topic-news-by-section?topic=SPORTS")}
+                style={{ color: category === 'topic-news-by-section?topic=SPORTS' ? '#FFDF00' : '' }}
               >
                 Sports
               </div>
@@ -74,8 +74,8 @@ const Navbar = ({ category, setCategory, darkMode, toggleDarkMode }) => {
             <li className="nav-item">
               <div
                 className="nav-link"
-                onClick={() => setCategory("top-headlines?country=in&category=entertainment")}
-                style={{ color: category === 'top-headlines?country=in&category=entertainment' ? '#FFDF00' : '' }}
+                onClick={() => setCategory("topic-news-by-section?topic=ENTERTAINMENT")}
+                style={{ color: category === 'topic-news-by-section?topic=ENTERTAINMENT' ? '#FFDF00' : '' }}
               >
                 Entertainment
               </div>
@@ -92,7 +92,7 @@ const Navbar = ({ category, setCategory, darkMode, toggleDarkMode }) => {
               value={inputval}
               onChange={handleInputChange}
             />
-            <button className="btn btn-outline-primary search-button" type="submit" style={{ height: "40px", marginTop: "5px", padding: "0px 4px" }} onClick={() => inputval ? setCategory(`everything?q=${inputval}`) : ''}>
+            <button className="btn btn-outline-primary search-button" type="submit" style={{ height: "40px", marginTop: "5px", padding: "0px 4px" }} onClick={() => inputval ? setCategory(`search?query=${inputval}`) : ''}>
               <img src={searchimg} style={{ width: "30px" }} alt="search" />
             </button>
             <button className="btn nav-link" onClick={() => setCategory("bookmark")} style={{ color: category === 'bookmark' ? '#FFDF00' : '', marginLeft: "0px", marginRight: "0px", paddingLeft: "0px", paddingRight: "0px", width: "40px" }}>

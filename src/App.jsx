@@ -6,7 +6,7 @@ import "./App.css";
 
 import "./App.css"
 const App= ()=>{
-  const[category,setCategory]=useState("top-headlines?country=in&category=general");
+  const[category,setCategory]=useState("topic-news-by-section?topic=WORLD");
   const [darkMode, setDarkMode] = useState(false);
 
   const toggleDarkMode = () => {

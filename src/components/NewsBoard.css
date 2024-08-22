@@ -8,3 +8,17 @@
   background-color: #4a525b;
   color: #ffffff;
 }
+
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.loading-spinner img {
+  width: 50px;
+  height: 50px;
+}
+
+
