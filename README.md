@@ -1,6 +1,9 @@
-# LiveLens
+# LiveLens 
+[live version](https://live-lens.vercel.app/)
 
-**Discover News Like Never Before with LiveLens**
+**Discover News Like Never Before with LiveLens** 
+
+
 
 LiveLens is a dynamic and responsive news platform that curates and delivers real-time updates across various categories. Built with React and Bootstrap, the application provides an intuitive interface and seamless user experience for staying informed on the latest news.
 
