@@ -22,8 +22,8 @@ LiveLens is a dynamic and responsive news platform that curates and delivers rea
 ## Screenshots
 Here are some screenshots of LiveLens in action:
 
-<img src="https://github.com/user-attachments/assets/38462ea2-3180-41b5-a240-c37300ca7306" alt="Screenshot" width="500">
-<img src="https://github.com/user-attachments/assets/548a81af-47e4-41c7-9760-c92bc7268eb3" alt="Screenshot" width="500">
+<img src="https://github.com/user-attachments/assets/38462ea2-3180-41b5-a240-c37300ca7306" alt="Screenshot" width="450">
+<img src="https://github.com/user-attachments/assets/548a81af-47e4-41c7-9760-c92bc7268eb3" alt="Screenshot" width="450">
 
 <br>
 <br>
