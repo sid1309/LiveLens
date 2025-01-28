@@ -2,10 +2,8 @@
 [live version](https://live-lens.vercel.app/)
 
 **Discover News Like Never Before with LiveLens** 
-
-
-
 LiveLens is a dynamic and responsive news platform that curates and delivers real-time updates across various categories. Built with React and Bootstrap, the application provides an intuitive interface and seamless user experience for staying informed on the latest news.
+
 
 ## Features
 
@@ -20,6 +18,29 @@ LiveLens is a dynamic and responsive news platform that curates and delivers rea
 - **Frontend**: React.js and Bootstrap for building a responsive and visually appealing user interface.
 - **API Integration**: News API for fetching real-time news updates and articles.
 - **Local Storage**: Used for saving bookmarks locally in JSON format.
+
+## Screenshots
+Here are some screenshots of LiveLens in action:
+
+<img src="https://github.com/user-attachments/assets/38462ea2-3180-41b5-a240-c37300ca7306" alt="Screenshot" width="500">
+<img src="https://github.com/user-attachments/assets/548a81af-47e4-41c7-9760-c92bc7268eb3" alt="Screenshot" width="500">
+
+<br>
+<br>
+Search Feature : 
+<img src="https://github.com/user-attachments/assets/3cc12d08-b05d-4e6a-846f-36517767dbe9" alt="Screenshot" width="900">
+
+<br>
+<br>
+Bookmark's Page :
+<img src="https://github.com/user-attachments/assets/b0c3f8f2-6323-4da4-99e7-7c2632dbeb92" alt="Screenshot" width="900">
+
+## Video Demo
+Check out the video demonstration of LiveLens:
+
+https://github.com/user-attachments/assets/c041e7ae-4bf6-49f8-8546-2e2a69f5e409
+
+
 
 ## Installation
 
@@ -71,7 +92,4 @@ LiveLens/
 ```
 
 
-### Contributors
-
-- **Siddhant Chatse** - [GitHub](https://github.com/sid1309)
 
