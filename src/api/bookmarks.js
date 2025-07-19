@@ -3,7 +3,7 @@ import API from '../api/axios';
 // Add bookmark
 export const addBookmark = async (article) => {
   try {
-    const res = await API.post('/bookmarks', article);
+    const res = await API.post('https://livelens-backend-1.onrender.com/api/bookmarks', article);
     return res.data;
   } catch (error) {
     throw error;
@@ -23,7 +23,7 @@ export const getBookmarks = async () => {
 // Remove bookmark by URL or ID (depending on backend)
 export const removeBookmark = async (url) => {
   try {
-    const res = await API.delete(`/bookmarks`, { data: { url } });
+    const res = await API.delete(`https://livelens-backend-1.onrender.com/api/bookmarks`, { data: { url } });
     return res.data;
   } catch (error) {
     throw error;
