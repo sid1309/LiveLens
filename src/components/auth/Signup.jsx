@@ -11,7 +11,7 @@ const Signup = () => {
   const handleSignup = async (e) => {
     e.preventDefault(); // ✅ Prevent form reload
     try {
-      await API.post('/auth/signup', { username, password });
+      await API.post('https://livelens-backend-1.onrender.com/api/auth/signup', { username, password });
       alert('User registered!');
       navigate('/login');
     } catch (error) {
