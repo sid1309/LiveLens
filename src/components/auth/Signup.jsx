@@ -16,7 +16,11 @@ const Signup = () => {
       navigate('/login');
     } catch (error) {
       console.error(error);
+      if (error.response && error.response.status === 409) {
+      alert('Username already exists!');
+    } else {
       alert('Registration failed!');
+    }
     }
   };
 
