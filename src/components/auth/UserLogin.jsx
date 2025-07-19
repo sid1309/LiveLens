@@ -11,7 +11,7 @@ const UserLogin = ({setIsLoggedIn}) => {
   const handleLogin = async (e) => {
     e.preventDefault(); // ✅ Prevent page reload
     try {
-      const res = await API.post('/auth/login', { username, password });
+      const res = await API.post('https://livelens-backend-1.onrender.com/api/auth/login', { username, password });
       localStorage.setItem('token', res.data.token); // Save token
       setIsLoggedIn(true);
       alert('Login successful!');
