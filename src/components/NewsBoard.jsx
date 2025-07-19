@@ -20,7 +20,7 @@ const NewsBoard = ({ category, darkMode }) => {
       const options = {
         method: 'GET',
         headers: {
-          'x-rapidapi-key': 'e25c615ac2msh17c20d16c6b997dp14bb96jsnfaa504c6d290',
+          'x-rapidapi-key': import.meta.env.VITE_NEWS_API_KEY,
           'x-rapidapi-host': 'real-time-news-data.p.rapidapi.com'
         }
       };
