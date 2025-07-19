@@ -13,7 +13,7 @@ export const addBookmark = async (article) => {
 // Get all bookmarks
 export const getBookmarks = async () => {
   try {
-    const res = await API.get('/bookmarks');
+    const res = await API.get('https://livelens-backend-1.onrender.com/api/bookmarks');
     return res.data;
   } catch (error) {
     throw error;
